@@ -24,3 +24,12 @@ git checkout BRANCH_NAME//to get into specified or particular branch
 git checkout child
 
 git pull origin BRANCH_NAME//pulling latest changes from the remote repository to local repository
+
+git stash//copy the changes to the clipboard
+git stash apply//restore the changes to the branch
+
+git diff//show the differences between existing vs modified changes for all files
+git diff FILE_PATH//show the differences between existing vs modified changes for THE mentioned files
+
+git branch -d BRANCH_NAME //deletes branch if merged with main branch
+git branch -D BRANCH_NAME //deletes branch even if not merged with main branch
