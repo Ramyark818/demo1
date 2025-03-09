@@ -7,6 +7,131 @@ ul {
   list-style: none;
 }
 
-.container .main p {
-  color: red;
+.start {
+  background-color: aqua;
+  width: 100%;
+  height: 25px;
+  padding: 15px;
+}
+.start .start1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.start .start1 h3 {
+  flex-wrap: wrap;
+}
+.start .start1 input {
+  width: 20%;
+  height: 24px;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.start .start1 button {
+  background-color: orange;
+  padding: 8px 0 8px 0;
+  width: 12%;
+  height: 28px;
+  cursor: pointer;
+  border: none;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.middle .middle1 h1 {
+  color: orange;
+  text-align: center;
+}
+.middle .middle1 p {
+  text-align: center;
+}
+.middle .main12 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.middle .main12 button {
+  padding: 5px 10px;
+  border-width: 2px;
+  border-color: orange;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.main2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+.main2 .main21 {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.main2 .main21 img {
+  width: 100%;
+  height: auto;
+}
+
+.main3 {
+  display: flex;
+  justify-content: center;
+}
+.main3 button {
+  padding: 8px 0 8px 0;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: orange;
+  width: 12%;
+  cursor: pointer;
+}
+
+.main4 {
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+.main4 .main41 {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.main4 .main41 img {
+  width: 100%;
+  height: auto;
+}
+.main4 .main42 {
+  padding: 20px;
+  text-align: center;
+}
+.main4 .main42 .main421 {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.main4 .main42 .main421 button {
+  background-color: white;
+  color: orange;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: orange;
+  cursor: pointer;
+}
+.main4 .main42 button {
+  padding: 10px;
+  border: 1px solid orange;
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
